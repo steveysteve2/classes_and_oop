@@ -15,7 +15,7 @@ def main():
    print('I will deposit that into your account.')
    savings.deposit(pay)
 
-   # Display the balance.
+   # Display the balance.x
    print('Your account balance is $', format(savings.get_balance(), ',.2f'),
         sep='')
 
@@ -29,7 +29,7 @@ def main():
         format(savings.get_balance(), ',.2f'),
         sep='')
 
-   print(savings)
+#    print(savings)
 
 # Call the main function.
 main()

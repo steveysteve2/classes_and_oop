@@ -7,7 +7,7 @@ class Coin:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
-    def __init__(self):
+    def __init__(self):                     
         self.sideup = 'Heads'
 
     # The toss method generates a random number
